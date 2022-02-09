@@ -30,7 +30,7 @@ public class EmployeeTest {
         assertEquals(80000, employee.getSalary());
         employee.raiseSalary(1500.00);
         assertEquals(81500, employee.getSalary(), 0.0);
-        assertEquals(815.00, employee.payBonus(), 0.0);
+        assertEquals(1600.00, employee.payBonus(), 0.0);
     }
 
     @Test
